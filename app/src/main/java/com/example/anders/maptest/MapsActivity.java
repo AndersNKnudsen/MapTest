@@ -118,7 +118,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
         catch (SecurityException e)
         {
-            Log.d("---TEST---", "onMapReady: Could not get location due to permissions.");
+            Log.d("---TEST---", "onMapReady: Could not get location due to permissions. Check.");
         }
     }
 
